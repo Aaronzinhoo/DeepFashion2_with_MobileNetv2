@@ -34,6 +34,6 @@ python generate_deepfashion_data.py 'val'
 ``` 
 ## Train the model
 ```bash
-python train_ssd_lite.py dataset_type 'deep_fashion_2'  datasets ./  validation_dataset ./ net mb2-ssd-lite scheduler cosine lr 0.01 t_max 200 validation_epochs 5 num_epochs 20
+python train_ssd_lite.py --dataset_type 'deep_fashion_2'  --datasets ./  --validation_dataset ./ --net mb2-ssd-lite --scheduler cosine lr 0.01 --t_max 200 --validation_epochs 5 --num_epochs 20
 ```
 
