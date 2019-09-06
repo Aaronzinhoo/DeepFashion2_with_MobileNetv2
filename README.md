@@ -1,6 +1,8 @@
 # Attempt at using Mobile Net v2.0 on DeepFashion2 dataset to detect top, bottom, and full body clothing.
 
-# Heirarchy of folders should be the following:
+Pytorch Implementation of MobileNetv2.0 is from [qfgaohao](https://github.com/qfgaohao/pytorch-ssd "Mb2 Repo") with slight adjustemnts to meet our needs. The dataset used can be found by going to [deepfashion2](https://github.com/switchablenorms/DeepFashion2 "deepfashion repo"). 
+
+## Heirarchy of folders should be the following:
 	 Root: pytorch-ssd
 		->train:
 			->Annotations
@@ -10,12 +12,12 @@
 			->Annotations
 			->image
 			...
-		deepfashion-classes.txt 
-		generate_xml_annotations.py
-		train_ssd_lite.py
-		generate_deepfashion_data.py
+		->deepfashion-classes.txt 
+		->generate_xml_annotations.py
+		->train_ssd_lite.py
+		->generate_deepfashion_data.py
 
-Pytorch Implementation of MobileNetv2.0 is from [qfgaohao](https://github.com/qfgaohao/pytorch-ssd "Mb2 Repo") with slight adjustemnts to meet our needs. The dataset used can be found by going to [deepfashion2](https://github.com/switchablenorms/DeepFashion2 "deepfashion repo"). 
+
 
 Ensure deepfashion2_Dataset.py is within the vision/models folder
  
