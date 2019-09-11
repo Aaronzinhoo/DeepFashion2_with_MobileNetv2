@@ -1,5 +1,5 @@
 # Attempt at using Mobile Net v2.0 on DeepFashion2 dataset to detect top, bottom, and full body clothing.
-
+***There are possible bugs in this code as it is not the up-to-date version***
 Pytorch Implementation of MobileNetv2.0 is from [qfgaohao](https://github.com/qfgaohao/pytorch-ssd "Mb2 Repo") with slight adjustemnts to meet our needs. The dataset used can be found by going to [deepfashion2](https://github.com/switchablenorms/DeepFashion2 "deepfashion repo"). 
 
 ## Heirarchy of folders should be the following:
